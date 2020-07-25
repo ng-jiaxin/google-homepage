@@ -53,6 +53,7 @@ body{
     position:relative;
     margin:auto;
     width:min-content;
+    outline:none;
 }
 .searchbox{
     display:block;
