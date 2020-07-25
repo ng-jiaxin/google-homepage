@@ -1,5 +1,5 @@
 <h1>Recreating Google's Homepage</h1>
-This is my first project in The Odin Project. It is best viewed on Mozilla Firefox.
+This is my first project in The Odin Project. It is best viewed on Mozilla Firefox. Click [here](https://ng-jiaxin.github.io/google-homepage/) to view.
 
 <h2>Takeaways</h2>
 - Utilising division element in html<br/>
