@@ -1,0 +1,147 @@
+.header_box{
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    overflow:hidden;
+    float:right;
+    white-space:nowrap;
+}
+.header_links{
+    display:inline-block;
+}
+body{
+    font-family:arial,sans-serif;
+    font-size: 20px;
+    
+}
+.app_icon{
+    width:20px;
+    height:20px;
+    margin-top:10px; 
+    margin-right:10px;
+    filter: contrast(30%);  
+}
+.app_icon:hover{
+    filter:brightness(0%);
+}
+#signin{
+    background-color:#4285f4 ;
+    font-weight:bold;
+    color:white;
+    border:1px solid #4285f4;
+    outline:none;
+    font-size: 20px;
+    height:40px;
+    width:100px;
+    margin-right:20px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+.logo{
+    padding-top:200px;
+    padding-left:100px;
+    padding-right:100px;
+    padding-bottom: 50px;
+}
+#google_logo{
+    display:block;
+    margin:auto;
+    width:272px;
+    height:92px;
+}
+.search{
+    position:relative;
+    margin:auto;
+    width:min-content;
+}
+.searchbox{
+    display:block;
+    margin:auto;
+    border-radius: 30px;
+    border: 1px solid #cacaca;
+    width: 500px;
+    height:50px;
+    padding-inline-start: 60px;
+}
+.searchbox:hover{
+    box-shadow:0.5px 0.5px 5px 3px #e6e6e6;
+}
+
+.mag_glass{
+    position:absolute;
+    filter:contrast(10%);
+    top:13px;
+    left:20px;
+}
+.buttons_box{
+    padding:30px;
+    text-align:center;
+}
+.misc_buttons{
+    margin:5px;
+    cursor:pointer;
+    background-color:#f2f2f2;
+    color:#5f6368;
+    padding-left: 20px;
+    padding-right:20px;
+    font-family:arial,sans-serif;
+    height:45px;
+    border:1px solid #f2f2f2;
+    border-radius: 5px;
+    min-width: 54px;
+}
+
+.languages{
+    text-align:center;
+}
+a{
+    text-decoration: none;
+    margin-left:10px;
+    color:#1a0dab;
+}
+a:hover{
+    text-decoration: underline;
+}
+#name{
+    margin-left:10px;
+}
+.country{
+    background-color: #f2f2f2;
+    padding:10px;
+    border-top:1px solid#e4e4e4;
+    position:absolute;
+    bottom:58px;
+    width:100%;
+    color:rgb(90, 89, 89);
+} 
+
+.misc_links {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow:hidden;
+    background-color:#f2f2f2;
+    border-top:1px solid #e4e4e4;
+    border-bottom:1px solid #e4e4e4;
+  }
+
+.footer_left{
+    float: left;
+}
+.footer_right{
+    float:right;
+}
+
+li a{
+    display:block;
+    padding:8px; 
+    color:rgb(90, 89, 89);
+    text-decoration:none;
+}
+
+footer{
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+
